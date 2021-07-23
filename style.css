@@ -1,0 +1,329 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.menu_cima_inteiro{
+   position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%
+
+}
+
+.logo {
+    float: left; 
+}
+
+logomarca{
+ width: 96px;
+ height: 96px;
+ background: url() no-repeat 0 0;
+ display: block;
+ 
+}
+
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+.nome2{
+
+width: 10px;
+height: 20px;
+float: left;
+margin: 41px 0 25px 100px;
+font-family: Arial;
+font-size: 30px;
+line-height: 17px;
+	
+	
+}
+.nome{
+  
+	width: 850px;
+	height: 20px;
+	float: left;
+	margin: 41px 0 50px 65px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	line-height: 17px;
+
+}
+
+.topico_principal{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+
+body {
+  background-color: rgba(10, 2, 128, 0.856);
+}
+.menu_riscos{
+  background: #000032;
+  border-radius: 20%;
+  width: 60px;
+  height: 60px;
+  position: fixed; 
+  top: 15px;
+  right: 25px;
+  z-index: 1;
+}
+
+.riscos{
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 30px;
+    height: 3px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.riscos:before,
+.riscos:after {
+    background: #fff;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.riscos:before {
+    top: -10px;
+}
+
+.riscos:after {
+    bottom: -10px;
+}
+
+input{
+  display: none;
+}
+
+
+
+input:checked~label .riscos {
+    transform: rotate(45deg);
+}
+
+input:checked~label .riscos:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+input:checked~label .riscos:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.barra {
+    background-color: #000032;
+    margin-top: 75px;
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    transition: all .2s linear;
+    right: -400px;
+}
+
+#check:checked~.barra {
+    transform: translateX(-300px);
+    margin-right: 125px;
+}
+
+
+
+#Conteudo1
+{
+  z-index: 2;
+  width: 100%;
+  height: 90px;
+  
+ 
+  background: rgb(1, 3, 136);
+}
+
+#Conteudo2
+{
+ 
+  z-index: 2;
+  width: 100%;
+  height: 60px;
+  background: rgb(0, 2, 99);
+}
+
+.clear{
+    clear: both;
+}
+
+topico__cima{
+  float: right;
+}
+
+.topicos_cima{
+  
+  color: aliceblue;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: -5px 180px;
+  text-decoration: none;
+}
+
+
+.center{
+	
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menubaixo{
+	float: left;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+.menubaixo__li{
+	
+  float: left;
+	margin: 18px 127px;
+  text-decoration: none;
+    
+}
+.menubaixo__link{
+	
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight:900;
+	line-height: 17px;
+}
+.fundobaixo__topico{
+
+	margin-top: 669px;
+
+	background: #000046;
+  width: 100%;
+  height: 52px;
+  float: center;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: Arial;
+  font-size: 35px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+
+p1 {
+  color: aliceblue;
+  margin-left: 50px;
+  justify-content: left;
+  font-family: Arial;
+}
+
+.itens{
+  color: #ffffff;
+	font-size: 20px;
+	font-weight:900;
+	line-height: 10px;
+   margin-left: 80px;
+   
+  
+}
+
+
+.item{
+  margin-top: 35px;
+
+}
+/*
+#pesquisa{
+  background-color:rgba(135, 136, 136, 0);
+  border:solid 1px;
+  border-radius:15px;
+  width:220px;
+  float: right;
+  height: 40px;
+  margin-top: -110px;
+  margin-right: 160px;
+}
+
+#txtpesquisa{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}*/
+
+
