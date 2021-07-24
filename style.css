@@ -159,9 +159,9 @@ body {
     bottom: -10px;
 }
 
-input{
+/*input{
   display: none;
-}
+}*/
 
 
 
@@ -229,10 +229,10 @@ topico__cima{
   float: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  margin: -5px 180px;
+  margin: 5px 179px;
+  margin-top: -3px;
   text-decoration: none;
 }
-
 
 .center{
 	
@@ -289,19 +289,25 @@ p1 {
 }
 
 .itens{
-  color: #ffffff;
+  
 	font-size: 20px;
-	font-weight:900;
+	font-weight:300;
 	line-height: 10px;
-   margin-left: 80px;
-   
+  font-family: Arial;
+  margin-bottom: 50px;
+  float: down;
+  
   
 }
 
 
 .item{
-  margin-top: 35px;
-
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+ 
 }
 /*
 #pesquisa{
@@ -325,5 +331,47 @@ p1 {
   height:32px;
   width:260px;
 }*/
+
+.pesquisa {
+  float: right;
+  margin-top: -70px;
+  margin-right: 180px;
+  
+}
+
+#texto {
+  width: 290px;
+  height: 42px;
+  margin-top: -60px;
+  font-family: 'Arial';
+  font-size: 23px;
+  border-radius: 8px;
+}
+
+#bnt {
+  /*width: 30px;
+  height: 30px;*/
+  float: left;
+  margin-right: 0px;
+  background-color: #000032;
+  padding-right: 5px;
+  padding-left: 7px;
+  margin-top: -9px;
+  border-left-radius: 5px;
+  font-size:18px;
+  height:30px;
+  width:30px;
+  cursor:pointer;
+}
+
+.fundo_pesquisa {
+   background-color: #000032;
+   width: 340px;
+   padding-right: 5px;
+  height: 52px;
+  border-radius: 10px;
+  margin-top: -47px;
+}
+
 
 
