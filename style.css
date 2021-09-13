@@ -373,7 +373,7 @@ p1 {
   margin-top: -47px;
 }
 
-textarea{
+/* textarea{
     width: 30%;
     padding-left: 10px;
     height: 100px;
@@ -384,10 +384,10 @@ textarea{
     float: left;
     margin-top: 100px;
     margin-left: 500px;
-}
+} */
  
 
-#nome {
+/* #nome {
 width: 20%;
 padding-left: 10px;
 height: 30px;
@@ -417,23 +417,23 @@ margin-right: 700px;
   margin-right: 700px;
   float: right;
   margin-top: 80px;
-}
+} */
 
 
-button {
-    /*display: block;*/
+/* button {
+    //display: block;
     background-color: #ccc;
     height: 35px;
     border: none;
-    /*outline: 0;*/
+    //outline: 0;
     cursor: pointer;
     width: 100px;
-    /*margin: 0 auto;*/
+    //margin: 0 auto;
     text-align: center;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 530px;
     float: left;
     margin-left: -100px;
-}
+}  */
 

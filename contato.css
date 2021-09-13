@@ -1,0 +1,21 @@
+#contato_form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+ .input_form,textarea{
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 1em;
+  font: 1em sans-serif;
+  border-radius: 10px;
+}
+
+.label_form{
+  font-weight: bold;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+
+
