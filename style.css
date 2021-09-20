@@ -111,8 +111,6 @@ line-height: 17px;
 }
 
 
-
-
 body {
   background-color: rgba(10, 2, 128, 0.856);
 }
@@ -158,12 +156,6 @@ body {
 .riscos:after {
     bottom: -10px;
 }
-
-/*input{
-  display: none;
-}*/
-
-
 
 input:checked~label .riscos {
     transform: rotate(45deg);
@@ -309,28 +301,6 @@ p1 {
   margin-left: 20px;
  
 }
-/*
-#pesquisa{
-  background-color:rgba(135, 136, 136, 0);
-  border:solid 1px;
-  border-radius:15px;
-  width:220px;
-  float: right;
-  height: 40px;
-  margin-top: -110px;
-  margin-right: 160px;
-}
-
-#txtpesquisa{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:18px;
-  border:none;
-  height:32px;
-  width:260px;
-}*/
 
 .pesquisa {
   float: right;
@@ -349,8 +319,6 @@ p1 {
 }
 
 #bnt {
-  /*width: 30px;
-  height: 30px;*/
   float: left;
   margin-right: 0px;
   background-color: #000032;
@@ -373,67 +341,4 @@ p1 {
   margin-top: -47px;
 }
 
-/* textarea{
-    width: 30%;
-    padding-left: 10px;
-    height: 100px;
-    line-height: 30px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    outline: none;
-    float: left;
-    margin-top: 100px;
-    margin-left: 500px;
-} */
- 
-
-/* #nome {
-width: 20%;
-padding-left: 10px;
-height: 30px;
-margin-top: 80px;
-display: inline-block;
-border-radius: 5px;
-float: right;
-margin-right: 700px;
-}
-
-#email{
-  width: 20%;
-  padding-left: 10px;
-  height: 30px;
-  margin-top: 80px;
-  margin-right: 700px;
-  display: inline-block;
-  border-radius: 5px;
-  float: right;
-  }
-
-#telefone {
-  width: 20%;
-  padding-left: 10px;
-  height: 30px;
-  border-radius: 5px;
-  margin-right: 700px;
-  float: right;
-  margin-top: 80px;
-} */
-
-
-/* button {
-    //display: block;
-    background-color: #ccc;
-    height: 35px;
-    border: none;
-    //outline: 0;
-    cursor: pointer;
-    width: 100px;
-    //margin: 0 auto;
-    text-align: center;
-    border-radius: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 530px;
-    float: left;
-    margin-left: -100px;
-}  */
 

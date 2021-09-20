@@ -1,6 +1,8 @@
 #contato_form{
   width: 50%;
   margin: 0 auto;
+  margin-top: -610px;
+  margin-left: 340px;
 }
 
  .input_form,textarea{
@@ -15,6 +17,24 @@
   font-weight: bold;
   padding-bottom: 10px;
   display: inline-block;
+}
+
+#formulario {
+  width: 900px;
+  height: 700px;
+  margin-left: 300px;
+  margin-top: -80px;
+  border-radius: 10px;
+  /*background-color: rgb(64, 112, 245);*/
+}
+
+#botao {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(149, 140, 230);
+  border-bottom-color: rgb(13, 0, 128);
+  font-family: Arial, sans-serif;
 }
 
 
