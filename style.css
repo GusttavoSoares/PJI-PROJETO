@@ -341,4 +341,20 @@ p1 {
   margin-top: -47px;
 }
 
+.mais_procurados{
+    width: 400px;
+    height: -100px;
+    border-radius: 30px;
+    font: bold 2em/8 sans-serif;
+    color: #FFF;
+    float:left;
+	  margin-left: 70px;
+    background: #7E97FF;
+    text-align: center;
+    
+}   
+    
+
+
+
 
