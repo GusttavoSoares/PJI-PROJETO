@@ -80,7 +80,7 @@ logomarca{
 #check {
 	display: none;
 }
-
+/*
 .nome2{
 
 width: 10px;
@@ -90,20 +90,27 @@ margin: 41px 0 25px 100px;
 font-family: Arial;
 font-size: 30px;
 line-height: 17px;
-	
-	
-}
-.nome{
-  
-	width: 850px;
-	height: 20px;
-	float: left;
-	margin: 41px 0 50px 65px;
-	font-family: 'Poppins', sans-serif;
-	font-size: 30px;
-	line-height: 17px;
 
+	
+}*/
+
+.nome{
+
+width: 30px;
+height: 20px;
+float: left;
+margin-left: 50px;
+
+font-family: Arial;
+font-size: 30px;
+line-height: 17px;
+padding: 30px;
+	
 }
+
+
+
+
 
 .topico_principal{
   text-decoration: none;
@@ -214,7 +221,7 @@ input:checked~label .riscos:after {
 topico__cima{
   float: right;
 }
-
+/*
 .topicos_cima{
   
   color: aliceblue;
@@ -224,7 +231,7 @@ topico__cima{
   margin: 5px 179px;
   margin-top: -3px;
   text-decoration: none;
-}
+}*/
 
 .center{
 	
@@ -340,7 +347,7 @@ p1 {
   border-radius: 10px;
   margin-top: -47px;
 }
-
+/*
 .mais_procurados{
     width: 400px;
     height: -100px;
@@ -350,9 +357,118 @@ p1 {
     float:left;
 	  margin-left: 70px;
     background: #7E97FF;
-    text-align: center;
-    
-}   
+    text-align: center;  
+} */
+
+@media screen and (min-width: 40em) {
+  .mais_procurados{
+    width: 400px;
+    height: -100px;
+    border-radius: 30px;
+    font: bold 2em/8 sans-serif;
+    color: #FFF;
+    float:left;
+	  margin-left: 70px;
+    background: #7E97FF;
+    text-align: center; 
+}
+
+@media screen and (min-width: 39.9375em) {
+  .mais_procurados{
+    width: 400px;
+    height: -100px;
+    border-radius: 30px;
+    font: bold 2em/8 sans-serif;
+    color: #FFF;
+    float:left;
+	  margin-left: 70px;
+    background: #7E97FF;
+    text-align: center; 
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  	
+.mais_procurados{
+    width: 400px;
+    height: -100px;
+    border-radius: 30px;
+    font: bold 2em/8 sans-serif;
+    color: #FFF;
+    float:left;
+	  margin-left: 70px;
+    background: #7E97FF;
+    text-align: center;  
+}
+
+}
+
+@media screen and (min-width: 64em){
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, .menu_cima_inteiro, .nome {
+   flex-direction: row;
+   justify-content: space-around;
+ }*/
+
+ .topicos_cima{
+  
+  color: aliceblue;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 5px 179px;
+  margin-top: -3px;
+  text-decoration: none;
+}
+
+.nome2{
+
+width: 10px;
+height: 20px;
+float: left;
+margin: 41px 0 25px 100px;
+font-family: Arial;
+font-size: 30px;
+line-height: 17px;
+
+	
+}
+	
+.mais_procurados{
+    width: 400px;
+    height: -100px;
+    border-radius: 30px;
+    font: bold 2em/8 sans-serif;
+    color: #FFF;
+    float:left;
+	  margin-left: 70px;
+    background: #7E97FF;
+    text-align: center;  
+}
+
+
+
+
+}
+
+
+/*@media screen and (max-device-width: 900px) {
+ .menu { width:600px; } 
+}
+
+@media only screen and (max-device-width: 700px) {
+ .menu { width:400px; } 
+}*/
     
 
 
