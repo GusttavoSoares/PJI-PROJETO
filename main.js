@@ -1,18 +1,21 @@
-// Floating Action Button
-const elemsBtns = document.querySelectorAll(".fixed-action-btn");
-const floatingBtn = M.FloatingActionButton.init(elemsBtns, {
-    direction: "left",
-   hoverEnabled: false
-});
-
-// Navbar
-const elemsDropdown = document.querySelectorAll(".dropdown-trigger");
-const instancesDropdown = M.Dropdown.init(elemsDropdown, {
-    coverTrigger: false
-});
-const elemsSidenav = document.querySelectorAll(".sidenav");
-const instancesSidenav = M.Sidenav.init(elemsSidenav, {
-    edge: "left"
-});
+const openIcon = document.querySelector(".fa-bars");
+const closeIcon = document.querySelector(".fa-times-circle");
+const mobileBG = document.querySelector(".mobile-bg");
+const mobileNav = document.querySelector(".mobile-nav");
 
 
+openIcon.addEventListener("click", () => {
+mobileBG.classList.toggle("display-none");
+mobileNav.classList.remove("slide-out");
+mobileNav.classList.toggle("slide-in");
+openIcon.classList.toggle("display-none");
+
+});
+closeIcon.addEventListener("click", () => {
+  setTimeout(() => {
+    mobileBG.classList.toggle("display-none");
+    openIcon.classList.toggle("display-none")
+  }, 500)
+  mobileNav.classList.toggle("slide-in");
+  mobileNav.classList.toggle("slide-out");
+});

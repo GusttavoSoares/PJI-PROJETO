@@ -1,6 +1,6 @@
 h2 {
-  color: aliceblue;
-  font-family: Arial;
+  color: #141E3C;
+  font-family: Century Arial, Helvetica, sans-serif;
   font-size: 30px;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -13,55 +13,140 @@ h2 {
  border-radius: 16%;
  margin-left: 10%;
  margin-top: 250px;
- float: left
+ float: left;
+}
+/*
+@media (min-width: 700px){
+   .imagem{
+   width: 290px;
+   height: 370px;
+   }
+ }*/
+ 
+
+ @media (max-width: 768px) and (max-width: 979px) {
+   .imagem{
+   width: 200px;
+   height: 280px;
+   }
+
+   .video{
+  margin-left: 23px;
+  margin-top: 700px;
+  width: 90%;
+  height: 300px;
+  }
+
+  .catalago{
+  font-family: Century Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+  margin-left: 25px;
+  }
 }
 
+@media (max-width: 368px) and (max-width: 767px) {
 .catalago{
-  font-family: Arial;
+  font-family: Century Arial, Helvetica, sans-serif;
   margin-top: 200px;
-  float: left
+  margin-left: 25px;
+  }
+}
+
+@media (max-width: 268px) and (max-width: 367px) {
+  .catalago{
+  font-family: Century Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+  margin-left: 700px;
+  }
+}
+
+/*
+@media (min-width: 768px) and (max-width: 768px) {
+   .imagem{
+   width: 270px;
+   height: 350px;
+   }
+
+   iframe{
+  margin-left: -570px;
+  margin-top: 700px;
+  width: 50%;
+  height: 300px;
+}
+}*/
+
+.catalago{
+  font-family: Century Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+  float: right;
+  margin-right: 500px;
 }
 
 .catalago_deta{
 	margin: 65px;
 }
 
-.catalago_detal{
-  color: #ffffff;
+.catalago_deta{
+  color: black;
+  font-family: Century Arial, Helvetica, sans-serif;
 	text-decoration: none;
-	font-size: 17px;
-	font-weight:900;
+	font-size: 20px;
+	font-weight: 800;
 	line-height: 17px;
   }
 
-iframe{
-   margin-left: -570px;
-  margin-top: 700px;
+  h5 {
+    color: black;
+  font-family: Century Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 17px;
+  text-justify: auto;
+  }
+
+  p1 {
+    color: black;
+  font-family: Century Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 25px;
+  text-justify: auto;
+  text-indent: 1.5em;
+  }
+
+
+.video{
+  display: block;
+  margin: 0 auto;
+  margin-top: 900px;
 }
 
 #indi_topicos{
-  color: #ffffff;
+  color: #141E3C;
 	font-size: 17px;
 	font-weight:900;
 	line-height: 17px;
-  font-family: Arial;
+  font-family: Century Arial, Helvetica, sans-serif;
 }
-#titulos_indi{
-  color: aliceblue;
-  font-family: Arial;
+.titulos_indi{
+  color: aliceblue; 
+  font-family: Century Arial, Helvetica, sans-serif;
   font-size: 30px;
 	margin-left: 180px;
 }
 
 .content_filmes {
   display: flex;
-  flex-direction: row;
-  flex-wrap: no-wrap;
+ flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-itens: flex-start;
 }
 
 .filmes{
+  color: #141E3C;
   height: 320px;
   width: 200px;
   margin: 5px;
@@ -82,8 +167,8 @@ iframe{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- justify-content: center;
- align-itens: flex-start;
+  justify-content: center;
+  align-itens: flex-start;
  
 }
 
@@ -91,8 +176,8 @@ iframe{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- justify-content: center;
- align-itens: flex-start;
+  justify-content: center;
+  align-itens: flex-start;
 }
 
 
@@ -123,7 +208,7 @@ iframe{
 #botao_oculta {
   font-size: 40px; 
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #D6DEF6;
   border: none;
   margin-left: 100px;
 }
